@@ -59,8 +59,6 @@ html {
 }
 
 .modal__body {
-    background-color: var(--white-color);
-    border-radius: 5px;
     margin: auto;
     position: relative;
     z-index: 1;
@@ -74,7 +72,7 @@ html {
     border: none;
     border-radius: 2px;
     font-size: 1.5rem;
-    padding: 0;
+    padding: 0 12px;
     outline: none;
     background-color: var(--white-color);
     cursor: pointer;
@@ -84,13 +82,14 @@ html {
     align-items: center;
 }
 
-.btn:hover {
+.btn.btn--normal:hover {
     background-color: rgba(0, 0, 0, 0.05);
 }
 
 .btn.btn--size-s {
     height: 32px;
     font-size: 1.2rem;
+    padding: 0 8px;
 }
 
 .btn.btn--primary {
