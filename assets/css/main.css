@@ -343,14 +343,27 @@
     color: var(--white-color);
 }
 
-.auth-form__socials-icon
-.auth-form__socials--facebook {
-    color: var(--white-color);
-}
-
 .auth-form__socials--google {
     background-color: var(--white-color);
     color: #666;
+}
+
+.auth-form__socials--google .auth-form__socials-icon {
+    color: transparent;
+    background: conic-gradient(
+        #ea4335 0deg,
+        #ea4335 45deg,
+        #4285f4 45deg,
+        #4285f4 135deg,
+        #34a853 135deg,
+        #34a853 225deg,
+        #fbbc05 225deg,
+        #fbbc05 275deg,
+        #ea4335 275deg
+    );
+    border-radius: 50%;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .auth-form__socials-title {
