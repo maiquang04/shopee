@@ -34,6 +34,9 @@
     .app__container {
         margin-top: calc(var(--header-height) + var(--header-sort-bar-height));
     }
+    .app__content {
+        padding-top: 8px;
+    }
 }
 
 /* Tablet */
