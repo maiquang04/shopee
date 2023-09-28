@@ -1020,7 +1020,7 @@
 
 /* Mobile category */
 .mobile-category {
-
+    display: none;
 }
 
 .mobile-category__list {
@@ -1072,6 +1072,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 6px;
 }
 
 .mobile-category__name {
@@ -1413,7 +1414,7 @@ i.home-product-item__like-icon-fill {
 }
 
 .footer__download-apps {
-    flex: 1;
+    /* flex: 1; */
     display: flex;
     flex-direction: column;
     justify-content: center;
